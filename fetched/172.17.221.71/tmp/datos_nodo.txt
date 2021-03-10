@@ -1,0 +1,1 @@
+el nodo con le nombre nodo01 tiene kernel 3.10.0-1160.el7.x86_64

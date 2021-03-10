@@ -1,0 +1,9 @@
+---
+- name: "Copiamos ficheros de un remote  host"
+  hosts: nodo1
+  tasks:
+    - name: " Hacemos un fetch del nodo 1 al master file datos_nodo.txt"
+      fetch:
+        src: /tmp/datos_nodo.txt
+        dest: /tmp/
+        flat: yes
