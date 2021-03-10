@@ -7,3 +7,6 @@
         src: /tmp/datos_nodo.txt
         dest: /tmp/
         flat: yes
+    - name: "mensaje"
+      debug:
+        msg: "Fichero copiado"
